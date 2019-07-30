@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>晓晓的个人简历</title>
+		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/loding.css" />
+		<script src="//at.alicdn.com/t/font_1316431_db2ekah5r1i.js"></script>
+		<style type="text/css">
+			.icon {
+				width: 1em;
+				height: 1em;
+				vertical-align: -0.15em;
+				fill: currentColor;
+				overflow: hidden;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="siteWelcome" class="site-welcome active">
+			<div class="loding"></div>
+		</div>
+		<div id="stickys" class="topNavBar">
+			<div class="topNavBar-inner clearfix">
+				<a class="logo" href="#" alt="logo" style="float: left;">
+					<span class="rs">RS</span>
+					<span class="card">card</span>
+				</a>
+				<nav class="menu" style="float:right;">
+					<ul class="clearfix">
+						<li>
+							<a href="#siteAbout">关于</a>
+						</li>
+						<li>
+							<a href="#siteSkills">技能</a>
+						</li>
+						<li>
+							<a href="#siteWorks">作品</a>
+							<ul class="submenu">
+								<li>作品1</li>
+								<li>作品2</li>
+								<li>作品3</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">博客</a>
+							<ul class="submenu">
+								<li>博客1</li>
+								<li>博客2</li>
+								<li>博客3</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">日历</a>
+						</li>
+						<li>
+							<a href="#">联系方式</a>
+						</li>
+						<li>
+							<a href="#">其他</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<div class="banner">
+			<div class="mask"></div>
+		</div>
+		<main style="">
+			<div data-x id="siteAbout" class="userCard">
+				<div class="pictureAndText clearfix">
+					<div class="picture">
+						<img src="./img/avatar.jpg" width=299 height=347 alt="头像">
+					</div>
+					<div class="text">
+						<span class="welcome">Hello
+							<span class="triangle"></span>
+						</span>
+						<h1>刘 晓</h1>
+						<p>前端开发工程师</p>
+						<hr>
+						<dl>
+							<dt>年龄</dt>
+							<dd>18</dd>
+							<dt>所在城市</dt>
+							<dd>赣州</dd>
+							<dt>邮箱</dt>
+							<dd>1464902890@qq.com</dd>
+							<dt>手机</dt>
+							<dd>17370144339</dd>
+						</dl>
+					</div>
+				</div>
+				<footer class="media">
+					<a href="#">
+						<svg class="icon" aria-hidden="true">
+							<use xlink:href="#icon-github"></use>
+						</svg>
+					</a>
+					<a href="#">
+						<svg class="icon" aria-hidden="true">
+							<use xlink:href="#icon-weibo1"></use>
+						</svg>
+					</a>
+					<a href="#">
+						<svg class="icon" aria-hidden="true">
+							<use xlink:href="#icon-youxiangsel"></use>
+						</svg>
+					</a>
+					<a href="#">
+						<svg class="icon" aria-hidden="true">
+							<use xlink:href="#icon-yunyouxiang"></use>
+						</svg>
+					</a>
+				</footer>
+			</div>
+
+			<p class="downloadResume-wrapper">
+				<a class="downloadResume" href="./resume.pdf" target="_blank" download>下载 PDF 简历</a>
+			</p>
+
+			<p class="selfIntroduction">
+				方应杭， 资深前端工程师，资深前端讲师，现在在 饥人谷 教前端课程。
+				<br> 技能：前端开发，Rails 开发，Node.js 开发
+			</p>
+
+		</main>
+		<section data-x id="siteSkills" class="skills">
+			<h2>技能</h2>
+			<ol class="clearfix">
+				<li>
+					<h3>
+						HTML 5 &amp; CSS 3
+					</h3>
+					<div class="progressBar">
+						<div class="progress" style="width: 10%;"></div>
+					</div>
+				</li>
+				<li>
+					<h3>
+						JavaScript
+					</h3>
+					<div class="progressBar">
+						<div class="progress" style="width: 20%"></div>
+					</div>
+				</li>
+				<li>
+					<h3>
+						jQuery
+					</h3>
+					<div class="progressBar">
+						<div class="progress" style="width: 30%"></div>
+					</div>
+				</li>
+				<li>
+					<h3>
+						Vue.js
+					</h3>
+					<div class="progressBar">
+						<div class="progress" style="width: 40%"></div>
+					</div>
+				</li>
+				<li>
+					<h3>
+						React.js
+					</h3>
+					<div class="progressBar">
+						<div class="progress" style="width: 50%"></div>
+					</div>
+				</li>
+				<li>
+					<h3>
+						Node.js
+					</h3>
+					<div class="progressBar">
+						<div class="progress" style="width: 60%"></div>
+					</div>
+				</li>
+			</ol>
+		</section>
+		<section data-x id="siteWorks" class="portfolio">
+			<h2>作品集</h2>
+			<nav>
+				<ol class="clearfix">
+					<li id="portfolio1">所有</li>
+					<li id="portfolio2">框架</li>
+					<li id="portfolio3">原生JS&amp;CSS</li>
+				</ol>
+				<div id="portfolioBar" class="bar state-1">
+					<div class="bar-inner"></div>
+				</div>
+			</nav>
+
+
+
+
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/17.4.0/Tween.min.js"></script>
+
+			<script>
+				portfolio1.onclick = function() {
+					portfolioBar.className = 'bar state-1'
+				}
+				portfolio2.onclick = function() {
+					portfolioBar.className = 'bar state-2'
+				}
+				portfolio3.onclick = function() {
+					portfolioBar.className = 'bar state-3'
+				}
+			</script>
+
+
+			<div class="works" style="height: 597px;">
+				<div class="big" style="top: 0; left: 0;">
+					<img src="./img/1.jpg" alt="作品1">
+				</div>
+				<div class="small" style="top: 0; left: 645px;">
+					<img src="./img/2.jpg" alt="作品2">
+				</div>
+				<div class="small" style="top: 312px; left: 645px;">
+					<img src="./img/3.jpg" alt="作品3">
+				</div>
+			</div>
+
+		</section>
+		
+
+		<script type="text/javascript">
+			
+			//添加loging效果
+			setTimeout(function() {
+				siteWelcome.classList.remove("active")
+			}, 1000);
+			
+			
+			//添加页面DIV弹跳效果(通过添加offset类的方式)
+			let specialTags = document.querySelectorAll("[data-x]");
+			for(let i =0;i<specialTags.length;i++){
+				specialTags[i].classList.add('offset');
+			}
+			
+			
+			
+			yyy();
+			window.onscroll = function(x) {
+				//添加导航栏滚动显示背景效果
+				if (window.scrollY > 0) {
+					stickys.classList.add('sticky')
+				} else {
+					stickys.classList.remove('sticky')
+				}
+				yyy();
+				let listProgress = document.getElementsByClassName("progress");
+				for(let i =0;i<listProgress.length;i++){
+					if(window.scrollY>210){
+						console.log(listProgress[i])
+						listProgress[i].classList.add('offset');
+					}
+				}
+			}
+			
+			function yyy(){
+				//添加页面滚动到相应位置（div）,其导航栏标题高亮显示
+				
+				let specialTags = document.querySelectorAll("[data-x]");
+				let minIndex = 0;
+				for(let i =1;i<specialTags.length;i++){
+					if(Math.abs(specialTags[i].offsetTop-window.scrollY)<Math.abs(specialTags[minIndex].offsetTop-window.scrollY)){
+						minIndex = i;
+					}
+				}
+				// for (let i = 0; i < specialTags.length; i++) {
+				// 	specialTags[i].style.border= '0px solid red'
+				// }
+				// specialTags[minIndex].style.border= '5px solid red'
+				specialTags[minIndex].classList.remove('offset'); //去除页面div弹跳
+				
+				let id = specialTags[minIndex].id;
+				let a = document.querySelector('a[href="#'+ id +'"]');
+				let li = a.parentNode;
+				let borthersAndMe = li.parentNode.children;
+				for(let i = 0;i<borthersAndMe.length;i++){
+					borthersAndMe[i].classList.remove('highlight');
+				}
+				li.classList.add('highlight');
+			}
+			
+			
+			//添加导航栏移入移出高亮显示
+			let liTags = document.querySelectorAll("nav.menu> ul > li");
+			for (let i = 0; i < liTags.length; i++) {
+				liTags[i].onmouseenter = function(x) {
+					x.currentTarget.classList.add("active");
+				}
+				liTags[i].onmouseleave = function(x) {
+					x.currentTarget.classList.remove("active");
+				}
+			}
+
+			
+			//点击a标签的同时跳转到与a内容相关的div中
+			let aTags = document.querySelectorAll("nav.menu>ul>li>a");
+			function animate(time) {						//在跳转的同时添加了一个相关的缓动动画 (使用了github上的一个库)
+				requestAnimationFrame(animate);
+				TWEEN.update(time);
+			}
+			requestAnimationFrame(animate);
+			
+			for (let i = 0; i < aTags.length; i++) {
+				aTags[i].onclick = function(x) {
+					x.preventDefault(); //阻止函数的默认跳转
+					let a = x.currentTarget;
+					let href = a.getAttribute("href"); //获取到a标签中href属性中的值,这个API不带http协议
+					let element = document.querySelector(href);
+					let top = element.offsetTop;
+
+					let currentTop = window.scrollY;
+					let targetTop = top - 80;
+					let s = targetTop - currentTop;
+					let coords = {
+						y: currentTop
+					};
+					var t = Math.abs((s / 100) * 300);
+					if (t > 500) {
+						t = 500
+					};
+					
+					
+					//缓动动画
+					let tween = new TWEEN.Tween(coords)
+						.to({
+							y: targetTop
+						}, t)
+						.easing(TWEEN.Easing.Quadratic.InOut)
+						.onUpdate(() => {
+							window.scrollTo(0, coords.y);
+
+						})
+						.start();
+					/* let currentTop = window.scrollY;
+					let tatgetTop = top - 80;
+					let distance = (tatgetTop - currentTop) / n;
+					console.log(currentTop)
+					console.log(tatgetTop)
+					console.log(distance)
+					let i = 0;
+					let id = setInterval(() => {
+						if (i === n) {
+							clearInterval(id);
+							return
+						}
+						i = i + 1;
+						window.scrollTo(0, currentTop + distance * i)
+					}, duration) */
+				}
+			}
+		</script>
+	</body>
+
+</html>
